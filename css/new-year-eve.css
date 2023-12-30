@@ -65,7 +65,7 @@ audio{
 }
 
 h1 {
-    font-size: calc(1.5em + 0vw);
+    font-size: calc(2.5em);
     color: #fff;
     font-family: "Caveat", sans-serif;
     text-align: center;
