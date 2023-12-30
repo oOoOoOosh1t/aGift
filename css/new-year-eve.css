@@ -72,6 +72,35 @@ h1 {
     padding: 0.5em;
     transform: rotate(-4deg) translateY(-15vh);
     text-shadow: 0 3px 10px rgba(253, 183, 44, 0.62);
+    animation: uito 3s ease-in-out;
+}
+
+.hello{
+    text-shadow: 2px 2px 34px #98ff98;
+    animation:  bigsmall 1s ease-in infinite;
+}
+
+@keyframes bigsmall {
+    0%{
+        opacity: 0;
+    }
+
+    11%{
+        opacity: 1;
+    }
+}
+
+@keyframes uito {
+    0%{
+        opacity: 0;
+        scale: 1.5;
+        rotate: -15deg;
+    }
+    100%{
+        opacity: 1;
+        scale: 1;
+        rotate: 0;
+    }
 }
 
 .mountains {
