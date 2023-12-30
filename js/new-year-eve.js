@@ -3562,10 +3562,12 @@ const burst_child = {
     swirlFrequency: 1
 };
 {
-    let mp3 = document.querySelector('#aud');
-    console.log(mp3);
-    document.body.onmouseover = function (){
-    mp3.play();
+    window.onload = function (){
+        let mp3 = document.querySelector('#aud');
+        mp3.play();
+        document.body.onmouseover = function () {
+            mp3.play();
+        }
     }
 }
 const burst_option = {
