@@ -3562,11 +3562,11 @@ const burst_child = {
     swirlFrequency: 1
 };
 {
-    let mp3 = document.querySelector('audio');
-    // document.body.onmouseover = function (){
-    //     console.log(2)
+    let mp3 = document.querySelector('#aud');
+    console.log(mp3);
+    document.body.onmouseover = function (){
     mp3.play();
-    // }
+    }
 }
 const burst_option = {
     count: 'rand(15,20)',
