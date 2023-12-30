@@ -3562,6 +3562,9 @@ const burst_child = {
     swirlFrequency: 1
 };
 {
+    document.addEventListener('wheel', function(event) {
+        event.preventDefault(); // 阻止默认行为（滚动）发生
+    });
     window.onload = function (){
         let mp3 = document.querySelector('#aud');
         mp3.play();
