@@ -27,7 +27,6 @@ audio{
 .bigger{
     font-size: larger;
     color: #ea6565;
-    animation: animate 1.2s infinite;
 }
 .stars:after,
 .stars:before {
