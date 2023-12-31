@@ -66,7 +66,7 @@ audio{
 #heart{
     z-index: 1;
     margin-top: -140px;
-    margin-left: -360px;
+    margin-left: -320px;
     /* 心的显示区域宽高 */
     width: 400px;
     height: 400px;
@@ -125,6 +125,7 @@ audio{
 
 h1 {
     font-size: calc(1.5em + 3vw);
+    width: 100%;
     color: #fff;
     font-family: "Caveat", sans-serif;
     text-align: center;
@@ -133,7 +134,6 @@ h1 {
     text-shadow: 0 3px 10px rgba(253, 183, 44, 0.62);
     animation: uito 3s ease-in-out;
     z-index: 4;
-    margin-left: 300px;
 }
 
 .hello{
