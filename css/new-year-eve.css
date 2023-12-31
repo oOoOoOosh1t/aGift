@@ -26,7 +26,7 @@ audio{
 }
 .bigger{
     font-size: larger;
-    color: #16b6f5;
+    color: #ea6565;
     animation: animate 1.2s infinite;
 }
 .stars:after,
@@ -69,35 +69,7 @@ audio{
     }
 }
 
-#heart{
-    position: absolute;
-    z-index: 1;
-    top: 150px;
-    /*margin-top: -140px;*/
-    /*margin-left: -400px;*/
-    /* 心的显示区域宽高 */
-    width: 400px;
-    height: 400px;
 
-    /* 心跳的动画 */
-    animation: animate 1.2s infinite;
-}
-
-@keyframes animate {
-    /* 动画就是简单的放大缩小 */
-    0% {
-        font-size: 11.7vw;
-    }
-    30% {
-        font-size: 12vw;
-    }
-    60% {
-        font-size: 11.7vw;
-    }
-    100% {
-        font-size: 12vw;
-    }
-}
 
 @media screen and (max-width: 750px) {
     #heart {
@@ -132,6 +104,7 @@ audio{
 
 
 h1 {
+    box-sizing: border-box;
     font-size: calc(1.5em + 3vw);
     color: #fff;
     font-family: "Caveat", sans-serif;
