@@ -133,6 +133,7 @@ h1 {
     text-shadow: 0 3px 10px rgba(253, 183, 44, 0.62);
     animation: uito 3s ease-in-out;
     z-index: 4;
+    margin-left: 100px;
 }
 
 .hello{
