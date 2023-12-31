@@ -7,7 +7,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
 }
 
 .stars {
@@ -65,11 +64,12 @@ audio{
 }
 
 #heart{
-    margin-top: -100px;
-    margin-left: -430px;
+    z-index: 1;
+    margin-top: -140px;
+    margin-left: -360px;
     /* 心的显示区域宽高 */
-    width: 550px;
-    height: 550px;
+    width: 400px;
+    height: 400px;
 
     /* 心跳的动画 */
     animation: animate 1.2s infinite;
@@ -132,6 +132,7 @@ h1 {
     transform: rotate(-4deg) translateY(-15vh);
     text-shadow: 0 3px 10px rgba(253, 183, 44, 0.62);
     animation: uito 3s ease-in-out;
+    z-index: 4;
 }
 
 .hello{
