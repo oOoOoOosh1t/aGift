@@ -64,9 +64,11 @@ audio{
 }
 
 #heart{
+    position: absolute;
     z-index: 1;
-    margin-top: -140px;
-    margin-left: -400px;
+    top: 150px;
+    /*margin-top: -140px;*/
+    /*margin-left: -400px;*/
     /* 心的显示区域宽高 */
     width: 400px;
     height: 400px;
